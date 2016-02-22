@@ -52,5 +52,6 @@ sudo adduser rstudio
 #www-port=$PORT
 ##www-address=$ID
 
-
+#best to test the server
+#sudo rstudio-server verify-installation
 
