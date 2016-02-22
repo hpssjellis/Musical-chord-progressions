@@ -9,6 +9,8 @@
 
 sudo apt-get update
 
+ sudo apt-get install lib32z1
+
 sudo apt-get -y install r-base r-base-core r-base-html libapparmor1 gdebi-core
 
 #sudo apt-get install r-base libapparmor1 gdebi-core
