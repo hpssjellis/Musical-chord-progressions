@@ -18,7 +18,7 @@ printf "\n\n>www-port=$PORT\nwww-address=$ID"  >> /etc/rstudio/rserver.conf
 
 
 
-ln -s //usr/lib/rstudio-server /home/ubuntu/workspace/rstudio-link
+ln -s /usr/lib/rstudio-server /home/ubuntu/workspace/rstudio-link
 
 
 echo "Enter a password to use in R-studio and then hit enter for defaults"
