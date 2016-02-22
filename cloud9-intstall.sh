@@ -19,16 +19,21 @@ sudo gdebi rstudio.deb
 
 echo "Enter a password to use in R-studio and then hit enter for defaults"
 
-sudo adduser rstudio
+
 
 
 sudo touch /etc/rstudio/rserver.conf
-sudo printf "\nwww-port=$PORT"  >> /etc/rstudio/rserver.conf
-
+#sudo printf "\nwww-port=$PORT"  >> /etc/rstudio/rserver.conf
+#printf "foo" | sudo tee /etc/file
+printf "\nwww-port=$PORT" | sudo tee /etc/rstudio/rserver.conf
 
 
 ln -s /usr/lib/rstudio-server /home/ubuntu/workspace/rstudio-link
+ln -s /etc/rstudio /home/ubuntu/workspace/rstudio-conf-link
 
+
+
+sudo adduser rstudio
 
 # inside rstudio run
 #install.packages("quantmod")
