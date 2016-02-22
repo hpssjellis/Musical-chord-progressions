@@ -23,8 +23,8 @@ sudo adduser rstudio
 
 
 sudo touch /etc/rstudio/rserver.conf
-#sudo printf "\n\n>www-port=$PORT\nwww-address=$ID"  >> /etc/rstudio/rserver.conf
-printf "\n\n>www-port=$PORT\nwww-address=$ID" | sudo tee /etc/rstudio/rserver.conf
+sudo printf "\nwww-port=$PORT"  >> /etc/rstudio/rserver.conf
+
 
 
 ln -s /usr/lib/rstudio-server /home/ubuntu/workspace/rstudio-link
