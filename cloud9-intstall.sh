@@ -13,3 +13,9 @@ wget http://download2.rstudio.org/rstudio-server-0.97.336-amd64.deb -O rstudio.d
 sudo gdebi rstudio.deb
 
 sudo adduser rstudio
+
+
+
+# inside rstudio run
+#install.packages("quantmod")
+
