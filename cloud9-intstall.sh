@@ -19,3 +19,8 @@ sudo adduser rstudio
 # inside rstudio run
 #install.packages("quantmod")
 
+# sudo rstudio-server stop
+# sudo rstudio-server start
+# sudo rstudio-server restart
+
+
