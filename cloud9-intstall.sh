@@ -9,13 +9,18 @@
 
 sudo apt-get update
 
-sudo apt-get install libxml2-dev libxslt-dev python-dev
+#sudo apt-get install libxml2-dev libxslt-dev python-dev
 
 sudo apt-get -y install r-base r-base-core r-base-html libapparmor1 gdebi-core
 
+sudo apt-get -y install x86_64-linux-gnu-gcc
+
+
 #sudo apt-get install r-base libapparmor1 gdebi-core
 
-wget http://download2.rstudio.org/rstudio-server-0.97.336-amd64.deb -O rstudio.deb
+#wget http://download2.rstudio.org/rstudio-server-0.97.336-amd64.deb -O rstudio.deb
+
+wget http://download2.rstudio.org/rstudio-server-0.97.336-i386.deb -O rstudio.deb
 
 sudo gdebi rstudio.deb
 
@@ -23,8 +28,8 @@ rm rstudio.deb
 
 echo "Enter a password to use in R-studio and then hit enter for defaults"
 
-pip install lxml
-pip install rpy2
+#pip install lxml
+#pip install rpy2
 
 sudo touch /etc/rstudio/rserver.conf
 #sudo printf "\nwww-port=$PORT"  >> /etc/rstudio/rserver.conf
