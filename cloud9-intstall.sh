@@ -9,7 +9,7 @@
 
 sudo apt-get update
 
- sudo apt-get install lib32z1
+sudo apt-get install libxml2-dev libxslt-dev python-dev
 
 sudo apt-get -y install r-base r-base-core r-base-html libapparmor1 gdebi-core
 
@@ -23,7 +23,7 @@ rm rstudio.deb
 
 echo "Enter a password to use in R-studio and then hit enter for defaults"
 
-
+pip install lxml
 pip install rpy2
 
 sudo touch /etc/rstudio/rserver.conf
