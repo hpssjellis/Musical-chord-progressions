@@ -22,8 +22,8 @@ echo "Enter a password to use in R-studio and then hit enter for defaults"
 sudo adduser rstudio
 
 
-mkdir /etc/rstudio/rserver.conf
-printf "\n\n>www-port=$PORT\nwww-address=$ID"  >> /etc/rstudio/rserver.conf
+sudo touch /etc/rstudio/rserver.conf
+sudo printf "\n\n>www-port=$PORT\nwww-address=$ID"  >> /etc/rstudio/rserver.conf
 
 
 
