@@ -12,6 +12,9 @@ wget http://download2.rstudio.org/rstudio-server-0.97.336-amd64.deb -O rstudio.d
 
 sudo gdebi rstudio.deb
 
+
+echo "Enter a password to use in R-studio and then hit enter for defaults"
+
 sudo adduser rstudio
 
 
@@ -22,5 +25,9 @@ sudo adduser rstudio
 # sudo rstudio-server stop
 # sudo rstudio-server start
 # sudo rstudio-server restart
+
+# www-port=80
+# www-address=127.0.0.1
+
 
 
