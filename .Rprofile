@@ -1,5 +1,5 @@
-cat(".Rprofile: Setting UK repositoryn")
-r = getOption("repos") # hard code the UK repo for CRAN
+cat(".Rprofile: Setting US repositoryn")
+r = getOption("repos") # hard code the US repo for CRAN
 r["CRAN"] = "http://cran.us.r-project.org"
 options(repos = r)
 rm(r)
