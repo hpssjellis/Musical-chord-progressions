@@ -12,7 +12,7 @@ echo "Install Rscript"
 
 sudo apt-get -y install r-base r-base-core r-base-html 
 
-
+pip install Wand
 
 
 echo "First checking the Python version"
