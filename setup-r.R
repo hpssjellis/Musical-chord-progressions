@@ -7,4 +7,4 @@ install.packages('reshape2', repos = 'http://cran.us.r-project.org')
 install.packages('googleVis', repos = 'http://cran.us.r-project.org')
 install.packages('quantmod', repos = 'http://cran.us.r-project.org')
 
-
+#install.packages("<local path to the downloaded gz file>", repos=NULL, type="source")
