@@ -11,7 +11,7 @@ sudo apt-get update
 echo "Install Rscript"
 
 sudo apt-get -y install r-base r-base-core r-base-html 
-apt-get -y install libmagickwand-dev
+sudo apt-get -y install libmagickwand-dev
 pip install Wand
 
 
