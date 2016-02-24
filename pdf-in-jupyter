@@ -1,0 +1,21 @@
+ from wand.image import Image  
+ from wand.display import display  
+ fileDirectory = ""  
+ inFileName="Rplots.pdf"  
+ outFileName="myOutputfile.png"  
+ imageFromPdf = Image(filename=fileDirectory+inFileName)  
+ pages = len(imageFromPdf.sequence)  
+ print(pages)  
+ image = Image(  
+   width=imageFromPdf.width,  
+   height=imageFromPdf.height * pages  
+ )  
+ for i in range(pages):  
+   image.composite(  
+     imageFromPdf.sequence[i],  
+     top=imageFromPdf.height * i,  
+     left=0  
+   )  
+ image.format="png"  
+ image.save(filename=fileDirectory+outFileName)  
+ image 
