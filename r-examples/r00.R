@@ -1,1 +1,1 @@
-demo(colors)
+demo()
