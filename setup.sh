@@ -12,7 +12,7 @@ echo "Install Rscript"
 
 sudo apt-get -y install r-base r-base-core r-base-html 
 sudo apt-get -y install libmagickwand-dev
-pip install Wand
+
 
 
 echo "First checking the Python version"
@@ -95,6 +95,7 @@ echo ". "
 echo "Installing a few extra packages"
 
 
+pip install Wand
 
 pip install matplotlib
 
