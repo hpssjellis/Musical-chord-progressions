@@ -1,6 +1,19 @@
 Musical-chord-progressions
 ==========================
 
+Things seem to have changed to a r example repo 
+
+and now pymatbridge from 
+
+https://github.com/arokem/python-matlab-bridge
+
+
+
+
+
+
+
+
 An analysis of hooktheory's db, represented as a sankey plot
 <p>This represents an visualization of all normalized chord progressions in the <a href="http://www.hooktheory.com">
 hooktheory database</a>. The scales are normalized so that for example C -> G -> Am   is the same as A -> E -> Fm 
