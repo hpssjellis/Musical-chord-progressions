@@ -99,6 +99,8 @@ pip install Wand
 
 pip install matplotlib
 
+pip install pymatbridge
+
 pip install scikit-learn
 
 pip install git+git://github.com/tensorflow/skflow.git
